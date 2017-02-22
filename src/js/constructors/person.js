@@ -1,7 +1,10 @@
 function Person () {
-  this.pet = function (x) {
-    x.status = 'happy'
-  }
-};
+    this.pet = function (dog) {
+        dog.status = 'happy';
+    };
+    this.feed = function (dog) {
+    dog.hungry = false
+    };
+}
 
 export { Person };

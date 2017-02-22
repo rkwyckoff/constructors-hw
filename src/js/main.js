@@ -11,12 +11,12 @@ import { Person } from "./constructors/person";
 // Write your code in the constructor files! (dog.js and person.js)
 // Dogs
 let sadie = new Dog({
-  color: 'black',
-  hungry: false
+    color: 'black',
+    hungry: false
 });
 
 let moonshine = new Dog({
-  color: 'blue-red'
+    color: 'blue-red',
 });
 
 let atticus = new Dog();
