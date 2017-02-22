@@ -9,7 +9,8 @@ function Dog (options) {
          this.hungry = true;
      } else {
          this.hungry = opts.hungry;
-     }
+       }
+
     // if(opts.owner === undefined) {
     //     this.owner === undefined
     // } else {
